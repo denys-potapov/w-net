@@ -1,0 +1,4 @@
+keras==2.0.4
+matplotlib
+tqdm
+h5py

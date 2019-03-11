@@ -1,5 +1,14 @@
 # W-net: Self-Supervised Learning of Depthmap from Stereo Images. 
 
+## About this repo
+
+THis is an excat copy of https://github.com/LouisFoucard/w-net . Added files with locaked deps (dockerfile and requirments), and predict scrpit to predict the depth for images in folder:
+
+	docker-compose run wnet python predict.py
+
+
+## original readme
+
 <img align="right" src="point_break_gif.gif" >
 
 W-net is a self-supervised convolutional neural network architecture to learn to predict depth maps from pairs of 
